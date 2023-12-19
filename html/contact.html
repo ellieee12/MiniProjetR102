@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Page d'Accueil</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel = "icon" href="../images/logo1.png" type="images/x-icon">
+        <meta name ="Page de contact" content="Page de contact pour IUT A Paul Sabatier BUT Informatique pour nous contacter, contact">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="accueil-header"> 
+            <div class="accueil-header1">
+                <img src="../images/logo1.png" alt="logo iut occitanie université toulouse III" title="logo iut occitanie université toulouse III">
+                <img src="../images/logo2.jpg" alt="logo université toulouse III Paul Sabatier" title="logo université toulouse III Paul Sabatier">
+            </div>
+            <div class="accueil-header2">
+                <img class="img3" src="../images/logo3.jpg" alt="logo iut occitanie université toulouse III toulouse" title="logo iut occitanie université toulouse III toulouse">
+            </div>
+        </div>
+        <div class="accueil">
+            <input type="checkbox" class="accueil-options-btn" id="toggleNav" >
+            <label for="toggleNav"><img src="../images/logo_option.png" alt="logo pour indiquer options pour contact"></label> 
+            <div class="accueil-navbar">
+                <a href="accueil.html">Accueil</a>
+                <a href="presentation.html">Présentation de BUT</a>
+                <div class="accueil-dropdown">
+                    <button class="accueil-dropbtn">Compétences</button>
+                    <div class = "accueil-dropdown-content">
+                        <a href="competence1.html">Réaliser un développement d'application</a>
+                        <a href="competence2.html">Optimiser des applications</a>
+                        <a href="competence3.html">Administrer des systèmes informatiques comminicants complexes</a>
+                        <a href="competence4.html">Gérer des données de l'information</a>
+                        <a href="competence5.html">Conduire un projet</a>
+                        <a href="competence6.html">Collaborer au sein d'une équipe informatique</a>
+                    </div>
+                </div>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
+        <h1 class="competence-titre">NOUS CONTACTER</h1><br>
+        <div class="competence-ressources">
+            <h2> Formulaire de contact: </h2>
+            <div class="contact-formulaire">
+                <div class="contact-formulaire1">
+                    <label class="contact" for="prenom">Prénom:</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Prenom"><br><br>
+                    <label class="contact" for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" placeholder="Nom"><br><br>
+                    <label class="contact" for="mail">Adresse mail:</label>
+                    <input type="email" id="mail" name="mail" placeholder="Adresse mail"><br><br>
+                    <button class="btn-contact">Envoyer</button><br><br>
+                </div>
+                <div class="contact-formulaire2">
+                    <label class="contact" for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Veuillez composer votre message ici"></textarea>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="competence-ressources">
+            <h2>NOUS TROUVER</h2>
+            <div class="nous-trouver">
+                <img class="contact-image1" src="../images/IUT.jpg" alt="image de l'IUT pour la page de contact pour le contact entre utilisateurs et nous">
+                <div class="nous-trouver1">
+                    <p>
+                        Vous pouvez nous trouver sur cet adresse: <br>
+                        IUT Paul Sabatier <br>
+                        115C Route de Narbonne <br>
+                        31077 TOULOUSE CEDEX 4 <br>
+                        Tel. +33 (0)5 62 25 80 00 <br>
+                        Fax. +33 (0)5 62 25 80 01 <br>
+                    </p>
+                    <img class="contact-image2" src="../images/CarteIUT.png" alt="image de la carte de l'IUT pour la page de contacte">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="accueil-footer-content">
+                <a href="accueil.html">Accueil</a>
+                <a href="presentation.html">Présentation du BUT</a>
+                <a href="competence1.html">Réaliser un developpement d'application</a>
+                <a href="competence2.html">Optimiser des applications informatiques</a>
+                <a href="competence3.html">Administrer des systèmes informatiques communicants complexes</a>
+                <a href="competence4.html">Gérer des données des l'information</a>
+                <a href="competence5.html">Conduire un projet</a>
+                <a href="competence6.html">Travailler dans une équipe informatique</a>
+                <a href="contact.html">Contacts</a>
+            </div>
+            <a class="cnil" href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees"><img src="../images/logo_cnil.png" alt="logo cnil"></a>
+            <div class="accueil-noms">
+                <h1>TEAMTECH APP</h1>
+                <p>Angel ENRIQUEZ</p>
+                <p>Ellisa EE</p>
+                <p>Melvin CLAVIÈRES</p>
+                <p>Tristan GALLARDO</p>
+            </div>
+        </footer>
+    </body>
+</html>
